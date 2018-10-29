@@ -13,8 +13,8 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position:center;
-	background-color:black;
+	background-position: center;
+	background-color: black;
 }
 a {
 	text-decoration: none;
@@ -388,7 +388,6 @@ footer p{
 	height: 200px;
 	width: 180px;
 	margin: 10px;
-	background-color: yellow;
 	float: left;
 }
 
@@ -470,7 +469,6 @@ footer p{
 	height: 180px;
 	float:right;
 	margin:10px;
-	background-color:pink;
 }
 #song22 {
 	float: right;
@@ -494,4 +492,27 @@ th, td	{
 	color:white;
 	
 }
-
+.imgReggae {
+	border-radius: 50%;
+}
+#tableReggae th{
+	background-color: #cc0000;
+}
+#tableReggae td:nth-child(even) {
+	background-color: #00802b;
+}
+#tableReggae td:nth-child(3) {
+	background-color: #cccc00;
+}
+#tableReggae td:nth-child(5) {
+	background-color: #cc0000;
+}
+#contentReggae {
+	height: 100%;
+	background-image: url('images/bg1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: black;
+}
