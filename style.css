@@ -399,6 +399,14 @@ footer p{
 	color: white;
 }
 
+#inleiding-hiphop	{
+	height: 400px;
+	width: 640px;
+	margin: 10px;
+	float: right;
+	color: white;
+}
+
 #subimage	{
 	height: 400px;
 	width: 320px;
@@ -406,6 +414,15 @@ footer p{
 	background-color: yellow;
 	float: right;
 }
+
+#subimage-hiphop	{
+	height: 400px;
+	width: 320px;
+	margin: 10px;
+	background-color: yellow;
+	float: left;
+}
+
 #contenttext2{
 	width: 1000px;
 	margin: auto;
