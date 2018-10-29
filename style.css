@@ -398,6 +398,49 @@ footer p{
 	float: left;
 	color: white;
 }
+#inleidingedm{
+	height: 400px;
+	width: 640px;
+	margin: 10px;
+	float: left;
+}
+#inleidingedm p{
+	-webkit-animation: color_change 2.8s infinite;
+	-moz-animation: color_change 2.8s infinite;
+	-ms-animation: color_change 2.8s infinite;
+	-o-animation: color_change 2.8s infinite;
+	animation: color_change 2.8s infinite;
+}
+@-webkit-keyframes color_change {
+	0% {color: blue; }
+	50% {color: red; }
+	75% {color:yellow;}
+	100% {color:green;}
+}
+@-moz-keyframes color_change {
+	0% {color: blue; }
+	25% {color: red; }
+	50% {color:yellow;}
+	100% {color:green;}
+}
+@-ms-keyframes color_change {
+	0% {color: blue; }
+	25% {color: red; }
+	50% {color:yellow;}
+	50% {color:green;}
+}
+@-o-keyframes color_change {
+	0% {color: blue; }
+	25% { color: red; }
+	50% {color:yellow;}
+	100% {color:green;}
+}
+@keyframes color_change {
+	0% {color: blue; }
+	25% { color: red; }
+	50% {color:yellow;}
+	100% {color:green;}
+}
 
 #inleiding-hiphop	{
 	height: 400px;
