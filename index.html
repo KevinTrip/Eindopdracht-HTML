@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Home</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		 
+		  $("a").on('click', function(event) {
+
+			if (this.hash !== "") {
+			
+			  event.preventDefault();
+
+			  var hash = this.hash;
+			  
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 1150, function(){
+		   
+				window.location.hash = hash;
+			  });
+			} 
+		  });
+		});
+		</script>
+	</head>
+	<body>
+		<header id="navblock">
+			<ul>
+				<li><a href="#welkom"><p>Top</p></a></li>
+				<li><a href="#country"><p>Country</p></a></li>
+				<li><a href="#edm">EDM</a></li>
+				<li><a href="#hip-hop">Hip-Hop</a></li>
+				<li><a href="#jazz">Jazz</a></li>
+				<li><a href="#metal">Metal</a></li>
+				<li><a href="#reggae">Reggae</a></li>
+				<li><a href="#rock">Rock</a></li>
+				<li><a href="#reqfochange">Suggestions</a></li>
+			</ul>
+		</header>
+		<div id="welkom">
+			<div id="welkomContent">
+				<div id="intro">
+					<h1>Welkom,</h1>
+				</div>
+				<div id="introText">
+					<p>
+					Op deze website kunt u informatie over 7 verschillende muziekgenres vinden. 
+					Hieronder bevalt algemene informatie, bekende artiesten, bekende albums, 
+					de geschiedenis van het genre en een paar voorbeeldnummers van het genre.
+					</p>
+				</div>
+				<a href="#country">
+					<div id="pijltje">
+					</div>
+				</a>
+			</div>
+		</div>
+		<div id="country">
+			<a href="country.html">
+				<div class="hoverImage">
+					<div class="textArea">
+						<h1 id="h1Index">COUNTRY</h1>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div id="edm">
+			<a href="edm.html">
+				<div class="hoverImage">
+					<div class="textArea">
+						<h1 id="h1Index">EDM</h1>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div id="hip-hop">
+			<a href="hip-hop.html">
+				<div class="hoverImage">
+					<div class="textArea">
+						<h1 id="h1Index">HIP-HOP</h1>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div id="jazz">
+			<a href="jazz.html">
+				<div class="hoverImage">
+					<div class="textArea">
+						<h1 id="h1Index">JAZZ</h1>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div id="metal">
+			<a href="metal.html">
+				<div class="hoverImage">
+					<div class="textArea">
+						<h1 id="h1Index">METAL</h1>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div id="reggae">
+			<a href="reggae.html">
+				<div class="hoverImage">
+					<div class="textArea">
+						<h1 id="h1Index">RAGGAE</h1>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div id="rock">
+			<a href="rock.html">
+				<div class="hoverImage">
+					<div class="textArea">
+						<h1 id="h1Index">ROCK</h1>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div id="reqfochange">
+			<a href="reqfochange.html">
+				<div class="hoverImage">
+					<div class="textArea">
+						<h1 id="h1Index">Suggestions</h1>
+					</div>
+				</div>
+			</a>
+		</div>
+		<footer>
+			<p>&copy; INF1I Group 2018 NHL Stenden University</p>
+		</footer>
+	</body>
+</html>

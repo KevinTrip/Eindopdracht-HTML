@@ -1,0 +1,497 @@
+/* ALGEMEEN */
+
+*{
+	margin: 0;
+}
+body {
+	
+	
+}
+#content {
+	height: 100%;
+	background-image: url('images/bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+	background-color:black;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	font-family: Arial;
+	color: white;
+}
+p {
+	font-family: Arial;
+
+}
+.hoverImage {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0;
+}
+.hoverImage:hover {
+	transition:0.5s ease;
+	opacity: 0.5;
+}
+.textArea {
+	width: 100%;
+	height: 100%;
+	color: white;
+	font-size: 80px;
+	text-align: center;
+	display:table;
+}
+/* NAVBAR */
+
+#navblock{
+    width: 100%;
+	margin-top: 100%;
+    position: fixed;
+	top: 0;
+    margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    color: black;
+    font-family: Arial;
+	background-color: black;
+	text-align: center;
+	z-index: 1;
+}
+#navblock p{
+	display: inline-block;
+}
+#navblock ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+#navblock a{
+	padding-right: 25px;
+	padding-left: 25px;
+	color: white;
+	text-decoration: none;
+}
+#navblock a:hover{
+	color:yellow;
+}
+
+#navblock a:active{
+	color:red;
+}
+/* BODY */
+
+#h1Index {
+	margin: 0 auto;
+	display:table-cell; 
+	vertical-align:middle;
+	font-family: Arial;
+}
+#welkom { 
+	height: 100vh;
+	width: 100%;
+	margin: 0 auto;
+	background-image: url("images/crowd.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+}
+#welkomContent { 
+	left: 20%;
+	right: 20%;
+	width: 60%;
+	height: 100vh;
+	position: relative;
+}
+#intro {
+	padding-top: 10vh;
+	font-size: 80px;
+	color: white;
+}
+#introText {
+	font-size: 25px;
+	width: 60%;
+	float: right;
+	margin-top: 6vh;
+	overflow: hidden;
+	padding: 10px;
+	color: white;
+}
+#pijltje {
+	margin: auto;
+	width: 100px;
+	height: 50px;
+	background-image: url("images/pijltje.png");
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0 ;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-bottom: 10px;
+}
+#pijltje:hover {
+	margin-bottom: 15px;
+	transition:0.3s ease;
+}
+#country {
+	background-image: url("images/country.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	padding-top: 56px;
+    margin-top: -56px;
+    background-clip: content-box;
+	
+}
+#edm {
+	background-image: url("images/edm.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	padding-top: 56px;
+    margin-top: -56px;
+    background-clip: content-box;
+}
+#hip-hop {
+	background-image: url("images/hip-hop.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	padding-top: 56px;
+    margin-top: -56px;
+    background-clip: content-box;
+}
+#jazz {
+	background-image: url("images/jazz.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	padding-top: 56px;
+    margin-top: -56px;
+    background-clip: content-box;
+}
+#metal {
+	background-image: url("images/metal.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	padding-top: 56px;
+    margin-top: -56px;
+    background-clip: content-box;
+}
+#reggae {
+	background-image: url("images/reggae.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	padding-top: 56px;
+    margin-top: -56px;
+    background-clip: content-box;
+}
+#rock {
+	background-image: url("images/rock.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	padding-top: 56px;
+    margin-top: -56px;
+    background-clip: content-box;
+}
+
+
+#reqfochange {
+	background-image: url("images/penenpapier.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	overflow: hidden;
+}
+#reqfochangesub {
+	background-image: url("images/penenpapier.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25vh;
+	
+}
+
+#content-rfc{
+	height: 1000px;
+	width: 1500px;
+	margin: auto;
+}
+
+#contenttext-rfc{
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#contenttext-rfc p{
+	color: white;
+	text-align: justify;
+}
+#contenttext-rfc h2{
+	color:white;
+	text-align: center;
+}
+
+#contenttext-rfc label{
+	color: white;
+}
+
+input[type=submit] {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+	border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+	padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.textAreaSub-rfc {
+	width: 100%;
+	height: 100%;
+	background-color:black;
+	opacity: 0.5;
+	color: white;
+	font-family: Arial;
+	font-size: 80px;
+	text-align: center;
+	display:table;
+	}
+
+label {
+	font-family: Arial;
+	}
+	
+/* FOOTER */
+
+footer{
+	width:100%;
+	background-color:black;
+	color:white;
+	text-align:right;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0), black, black, black, black, black);
+}
+
+footer p{
+	float:left;
+	display: inline-block;
+}
+/* Subpagina */
+
+#h1Indexsub {
+	margin: 0 auto;
+	font-family: Arial;
+}
+.textAreasub {
+	width: 1000px;
+	opacity: 0.5;
+	font-size: 80px;
+	text-align: center;
+	
+}
+#countrysub {
+	background-image: url("images/country.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25vh;
+	padding-top: 56px;
+}
+#edmsub {
+	background-image: url("images/edm.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25vh;
+	padding-top: 56px;
+}
+#hip-hopsub {
+	background-image: url("images/hip-hop.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25vh;
+	padding-top: 56px;
+}
+#jazzsub {
+	background-image: url("images/jazz.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25vh;
+	background-position: center;
+	padding-top: 56px;
+}
+#metalsub {
+	background-image: url("images/metal.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25vh;
+	padding-top: 56px;
+}
+#reggaesub {
+	background-image: url("images/reggae.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25vh;
+	padding-top: 56px;
+}
+#rocksub {
+	background-image: url("images/rock.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25vh;
+	padding-top: 56px;
+}
+#contenttext{
+	width: 1000px;
+	margin: auto;
+	margin-top: 0px;
+	background-color: black;
+	height: 604px;
+}
+#contenttext p{
+	text-align: justify;
+}
+#contenttext1{
+	width: 1000px;
+	margin: auto;
+	background-color: black;
+	height: 220px;
+}
+#contenttext1 p{
+	color: white;
+	text-align: justify;
+}
+#subtabel	{
+	height: 200px;
+	width: 780px;
+	margin: 10px;
+	float: left;
+}
+#subimage1	{
+	height: 200px;
+	width: 180px;
+	margin: 10px;
+	background-color: yellow;
+	float: left;
+}
+
+#inleiding	{
+	height: 400px;
+	width: 640px;
+	margin: 10px;
+	float: left;
+	color: white;
+}
+
+#subimage	{
+	height: 400px;
+	width: 320px;
+	margin: 10px;
+	background-color: yellow;
+	float: right;
+}
+#contenttext2{
+	width: 1000px;
+	margin: auto;
+	background-color: black;
+	height: 400px;
+}
+#contenttext2 p{
+	color: white;
+	text-align: justify;
+}
+#albums	{
+	width:1000px;
+	height:200px;
+	background-color: black;
+	float:left;
+}
+#songs	{
+	width:1000px;
+	height:200px;
+	float:left;
+	background-color: black;
+}
+
+#album1		{
+	width: 313.33px;
+	height: 180px;
+	margin: 10px;
+	float: left;
+}
+#album2	{
+	width: 313.33px;
+	height: 180px;
+	margin: 10px;
+	float: left;
+}
+#album2EDM	{
+	margin-left: 66.5px;
+}
+#album3	{
+	width: 313.33px;
+	height: 180px;
+	margin: 10px;
+	float: left;
+}
+#song1 {
+	width: 180px;
+	height: 180px;
+	float:left;
+	margin:10px;
+}
+#song11 {
+	float: left;
+	height: 40px;
+	width: 270px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 80px;
+}
+#song2 {
+	width: 180px;
+	height: 180px;
+	float:right;
+	margin:10px;
+	background-color:pink;
+}
+#song22 {
+	float: right;
+	height: 40px;
+	width: 270px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 80px;
+}
+footer p{
+	float:left;
+	display: inline-block;
+}
+table, th, td {
+	margin:auto;
+    border: 2px solid darkred;
+}
+th, td	{
+	text-align: left;
+	padding: 13px;
+	color:white;
+	
+}
+
