@@ -4,28 +4,12 @@
 	margin: 0;
 }
 body {
-	
-	
-}
-#content {
-	height: 100%;
-	background-image: url('images/bg.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-color: black;
+	font-family: Arial;
+	color:white;
+	text-align: justify;
 }
 a {
 	text-decoration: none;
-}
-h1 {
-	font-family: Arial;
-	color: white;
-}
-p {
-	font-family: Arial;
-
 }
 .hoverImage {
 	height: 100%;
@@ -40,14 +24,13 @@ p {
 .textArea {
 	width: 100%;
 	height: 100%;
-	color: white;
 	font-size: 80px;
 	text-align: center;
 	display:table;
 }
 /* NAVBAR */
 
-#navblock{
+.navblock{
     width: 100%;
 	margin-top: 100%;
 	position: fixed;
@@ -56,61 +39,30 @@ p {
 	padding-top: 20px;
 	padding-bottom: 20px;
     color: black;
-    font-family: Arial;
 	background-color: black;
 	text-align: center;
 	z-index: 1;
 }
 #navblock-rfc{
-    width: 100%;
-	margin-top: 100%;
 	position: auto;
-	top: 0;
-    margin: 0 auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-    color: black;
-    font-family: Arial;
-	background-color: black;
-	text-align: center;
-	z-index: 1;
 }
-#navblock p{
+.navblock p{
 	display: inline-block;
 }
-#navblock-rfc p{
-	display: inline-block;
-}
-#navblock ul li{
+.navblock ul li{
 	display: inline-block;
 	list-style-type: none;
 }
-#navblock-rfc ul li{
-	display: inline-block;
-	list-style-type: none;
-}
-#navblock a{
+.navblock a{
 	padding-right: 25px;
 	padding-left: 25px;
 	color: white;
 	text-decoration: none;
 }
-#navblock-rfc a{
-	padding-right: 25px;
-	padding-left: 25px;
-	color: white;
-	text-decoration: none;
-}
-#navblock a:hover{
+.navblock a:hover{
 	color:yellow;
 }
-#navblock-rfc a:hover{
-	color:yellow;
-}
-#navblock a:active{
-	color:red;
-}
-#navblock-rfcs a:active{
+.navblock a:active{
 	color:red;
 }
 /* BODY */
@@ -119,7 +71,6 @@ p {
 	margin: 0 auto;
 	display:table-cell; 
 	vertical-align:middle;
-	font-family: Arial;
 }
 #welkom { 
 	height: 100vh;
@@ -141,7 +92,6 @@ p {
 #intro {
 	padding-top: 10vh;
 	font-size: 80px;
-	color: white;
 }
 #introText {
 	font-size: 25px;
@@ -150,7 +100,6 @@ p {
 	margin-top: 6vh;
 	overflow: hidden;
 	padding: 10px;
-	color: white;
 }
 #pijltje {
 	margin: auto;
@@ -170,71 +119,37 @@ p {
 	margin-bottom: 15px;
 	transition:0.3s ease;
 }
-#country {
-	background-image: url("images/country.png");
+.index {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 50vh;
 	padding-top: 56px;
     margin-top: -56px;
     background-clip: content-box;
-	
+}
+.index a{ color:white;
+}
+#country {
+	background-image: url("images/country.png");
 }
 #edm {
 	background-image: url("images/edm.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 50vh;
-	padding-top: 56px;
-    margin-top: -56px;
-    background-clip: content-box;
 }
 #hip-hop {
 	background-image: url("images/hip-hop.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 50vh;
-	padding-top: 56px;
-    margin-top: -56px;
-    background-clip: content-box;
 }
 #jazz {
 	background-image: url("images/jazz.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 50vh;
-	padding-top: 56px;
-    margin-top: -56px;
-    background-clip: content-box;
 }
 #metal {
 	background-image: url("images/metal.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 50vh;
-	padding-top: 56px;
-    margin-top: -56px;
-    background-clip: content-box;
 }
 #reggae {
 	background-image: url("images/reggae.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 50vh;
-	padding-top: 56px;
-    margin-top: -56px;
-    background-clip: content-box;
 }
 #rock {
 	background-image: url("images/rock.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 50vh;
-	padding-top: 56px;
-    margin-top: -56px;
-    background-clip: content-box;
 }
-
 #reqfochange {
 	background-image: url("images/penenpapier.jpg");
 	background-repeat: no-repeat;
@@ -249,52 +164,31 @@ p {
 	height: 25vh;
 	
 }
-
 #rfcContent {
 	height: 1224px;
 	background-image: url('images/bg.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
-#content-rfc{
-	height: 1000px;
-	width: 1500px;
-	margin: auto;
-}
-
 #contenttext-rfc{
 	width: 750px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-#contenttext-rfc p{
-	color: white;
-	text-align: justify;
-}
 #contenttext-rfc h2{
-	color:white;
 	text-align: center;
 }
-
-#contenttext-rfc label{
-	color: white;
-}
-
 form {
 	padding-top: 10px;
 }	
 
 input[type=submit] {
     background-color: purple;
-    color: white;
     padding: 10px 20px;
 	border: none;
     border-radius: 10px;
     cursor: pointer;
 }
-
 input[type=text], select, textarea {
     width: 100%;
 	padding: 10px;
@@ -305,42 +199,30 @@ input[type=text], select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
-
 .textAreaSub-rfc {
 	width: 100%;
 	height: 100%;
 	background-color:black;
 	opacity: 0.5;
-	color: white;
-	font-family: Arial;
 	font-size: 80px;
 	text-align: center;
 	display:table;
 	}
-
-label {
-	font-family: Arial;
-	}
-	
 /* FOOTER */
-
 footer{
 	width:100%;
 	background-color:black;
-	color:white;
 	text-align:right;
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0), black, black, black, black, black);
 }
-
 footer p{
 	float:left;
 	display: inline-block;
 }
 /* Subpagina */
-
 #h1Indexsub {
 	margin: 0 auto;
-	font-family: Arial;
+	
 }
 .textAreasub {
 	width: 1000px;
@@ -349,55 +231,41 @@ footer p{
 	text-align: center;
 	
 }
-#countrysub {
-	background-image: url("images/country.png");
+#content {
+	height: 100%;
+	background-image: url('images/bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: black;
+}
+.sub	{
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 25vh;
 	padding-top: 56px;
+}
+#countrysub {
+	background-image: url("images/country.png");
 }
 #edmsub {
 	background-image: url("images/edm.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 25vh;
-	padding-top: 56px;
 }
 #hip-hopsub {
 	background-image: url("images/hip-hop.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 25vh;
-	padding-top: 56px;
 }
 #jazzsub {
 	background-image: url("images/jazz.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 25vh;
-	background-position: center;
-	padding-top: 56px;
 }
 #metalsub {
 	background-image: url("images/metal.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 25vh;
-	padding-top: 56px;
 }
 #reggaesub {
 	background-image: url("images/reggae.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 25vh;
-	padding-top: 56px;
 }
 #rocksub {
 	background-image: url("images/rock.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 25vh;
-	padding-top: 56px;
 }
 #contenttext{
 	width: 1000px;
@@ -406,18 +274,11 @@ footer p{
 	background-color: black;
 	height: 604px;
 }
-#contenttext p{
-	text-align: justify;
-}
 #contenttext1{
 	width: 1000px;
 	margin: auto;
 	background-color: black;
 	height: 220px;
-}
-#contenttext1 p{
-	color: white;
-	text-align: justify;
 }
 #subtabel	{
 	height: 200px;
@@ -431,13 +292,11 @@ footer p{
 	margin: 10px;
 	float: left;
 }
-
 #inleiding	{
 	height: 400px;
 	width: 640px;
 	margin: 10px;
 	float: left;
-	color: white;
 }
 #inleidingedm{
 	height: 400px;
@@ -452,28 +311,10 @@ footer p{
 	-o-animation: color_change 2.8s infinite;
 	animation: color_change 2.8s infinite;
 }
-@-webkit-keyframes color_change {
+@-webkit-keyframes, @-moz-keyframes, @-ms-keyframes, @-o-keyframes color_change {
 	0% {color: blue; }
 	50% {color: red; }
 	75% {color:yellow;}
-	100% {color:green;}
-}
-@-moz-keyframes color_change {
-	0% {color: blue; }
-	25% {color: red; }
-	50% {color:yellow;}
-	100% {color:green;}
-}
-@-ms-keyframes color_change {
-	0% {color: blue; }
-	25% {color: red; }
-	50% {color:yellow;}
-	50% {color:green;}
-}
-@-o-keyframes color_change {
-	0% {color: blue; }
-	25% { color: red; }
-	50% {color:yellow;}
 	100% {color:green;}
 }
 @keyframes color_change {
@@ -482,15 +323,12 @@ footer p{
 	50% {color:yellow;}
 	100% {color:green;}
 }
-
 #inleiding-hiphop	{
 	height: 400px;
 	width: 640px;
 	margin: 10px;
 	float: right;
-	color: white;
 }
-
 #subimage	{
 	height: 400px;
 	width: 320px;
@@ -498,7 +336,6 @@ footer p{
 	background-color: yellow;
 	float: right;
 }
-
 #subimage-hiphop	{
 	height: 400px;
 	width: 320px;
@@ -506,16 +343,11 @@ footer p{
 	background-color: yellow;
 	float: left;
 }
-
 #contenttext2{
 	width: 1000px;
 	margin: auto;
 	background-color: black;
 	height: 400px;
-}
-#contenttext2 p{
-	color: white;
-	text-align: justify;
 }
 #albums	{
 	width:1000px;
@@ -529,14 +361,7 @@ footer p{
 	float:left;
 	background-color: black;
 }
-
-#album1		{
-	width: 313.33px;
-	height: 180px;
-	margin: 10px;
-	float: left;
-}
-#album2	{
+.album		{
 	width: 313.33px;
 	height: 180px;
 	margin: 10px;
@@ -544,12 +369,6 @@ footer p{
 }
 #album2EDM	{
 	margin-left: 66.5px;
-}
-#album3	{
-	width: 313.33px;
-	height: 180px;
-	margin: 10px;
-	float: left;
 }
 #song1 {
 	width: 180px;
@@ -590,8 +409,6 @@ table, th, td {
 th, td	{
 	text-align: left;
 	padding: 13px;
-	color:white;
-	
 }
 .imgReggae {
 	border-radius: 50%;
