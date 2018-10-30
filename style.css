@@ -13,8 +13,8 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position:center;
-	background-color:black;
+	background-position: center;
+	background-color: black;
 }
 a {
 	text-decoration: none;
@@ -395,7 +395,6 @@ footer p{
 	height: 200px;
 	width: 180px;
 	margin: 10px;
-	background-color: yellow;
 	float: left;
 }
 
@@ -405,6 +404,49 @@ footer p{
 	margin: 10px;
 	float: left;
 	color: white;
+}
+#inleidingedm{
+	height: 400px;
+	width: 640px;
+	margin: 10px;
+	float: left;
+}
+#inleidingedm p{
+	-webkit-animation: color_change 2.8s infinite;
+	-moz-animation: color_change 2.8s infinite;
+	-ms-animation: color_change 2.8s infinite;
+	-o-animation: color_change 2.8s infinite;
+	animation: color_change 2.8s infinite;
+}
+@-webkit-keyframes color_change {
+	0% {color: blue; }
+	50% {color: red; }
+	75% {color:yellow;}
+	100% {color:green;}
+}
+@-moz-keyframes color_change {
+	0% {color: blue; }
+	25% {color: red; }
+	50% {color:yellow;}
+	100% {color:green;}
+}
+@-ms-keyframes color_change {
+	0% {color: blue; }
+	25% {color: red; }
+	50% {color:yellow;}
+	50% {color:green;}
+}
+@-o-keyframes color_change {
+	0% {color: blue; }
+	25% { color: red; }
+	50% {color:yellow;}
+	100% {color:green;}
+}
+@keyframes color_change {
+	0% {color: blue; }
+	25% { color: red; }
+	50% {color:yellow;}
+	100% {color:green;}
 }
 
 #inleiding-hiphop	{
@@ -494,7 +536,6 @@ footer p{
 	height: 180px;
 	float:right;
 	margin:10px;
-	background-color:pink;
 }
 #song22 {
 	float: right;
@@ -518,4 +559,27 @@ th, td	{
 	color:white;
 	
 }
-
+.imgReggae {
+	border-radius: 50%;
+}
+#tableReggae th{
+	background-color: #cc0000;
+}
+#tableReggae td:nth-child(even) {
+	background-color: #00802b;
+}
+#tableReggae td:nth-child(3) {
+	background-color: #cccc00;
+}
+#tableReggae td:nth-child(5) {
+	background-color: #cc0000;
+}
+#contentReggae {
+	height: 100%;
+	background-image: url('images/bg1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: black;
+}
