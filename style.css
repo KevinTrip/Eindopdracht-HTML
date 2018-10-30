@@ -219,6 +219,13 @@ p {
 	
 }
 
+#rfcContent {
+	height: 1000px;
+	width: 1500px;
+	margin:auto;
+	background-color: black;
+}
+
 #content-rfc{
 	height: 1000px;
 	width: 1500px;
